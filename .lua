@@ -1,5 +1,8 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))() 
 local Window = OrionLib:MakeWindow({Name = "Qwerty hub", HidePremium = false, SaveConfig = false, ConfigFolder = "OrionTest"})
+
+local Icon = "rbxassetid://7307851339"
+
 --[[
 Name = <string> - The name of the UI.
 HidePremium = <bool> - Whether or not the user details shows Premium status or not.
