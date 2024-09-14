@@ -4,9 +4,9 @@
 local uiLoader = loadstring(game:HttpGet('https://raw.githubusercontent.com/topitbopit/dollarware/main/library.lua'))
 -- Because of the way the library loads, settings are handled on the loadstring call
 local ui = uiLoader({
-    rounding = false, -- Whether certain features get rounded 
+    rounding = true, -- Whether certain features get rounded 
     theme = 'cherry', -- The theme. Available themes are: cherry, orange, lemon, lime, raspberry, blueberry, grape, watermelon
-    smoothDragging = false -- Smooth dragging
+    smoothDragging = true, -- Smooth dragging
 })
 
 ui.autoDisableToggles = true -- All toggles will automatically be disabled when the ui is destroyed (window is closed)
