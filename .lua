@@ -1,7 +1,7 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))() 
 local Window = OrionLib:MakeWindow({Name = "Qwerty hub", HidePremium = false, SaveConfig = false, ConfigFolder = "OrionTest"})
 
-local Icon = "rbxassetid://7307851339"
+local Icon = "rbxassetid://30117799"
 
 --[[
 Name = <string> - The name of the UI.
